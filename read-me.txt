@@ -1,0 +1,19 @@
+
+    This class is create or maintain the log file for your application,
+    where you will create any log message for your application and store in log.txt file under the log directory,
+    you also create the date wise log file with custom name .
+    // create logs folder under the root folder
+
+
+// create a object for log  class and pass file name parameter as log filename log.txt  and log.txt file create under the logs directory
+$log=  new Log();
+
+// if pass the second parameter as true, then it create log file as datewise like 17-4-2016__log.txt
+//$log=  new Log('log.txt',true);
+$log->write(__FILE__.' this is the file name where the log class was used '); // write any log message
+
+$log->write(' DIR_PATH '.DIR_PATH); // write any log message
+$log->write(' DIR_LOGS'.DIR_LOGS); // write any log message
+
+
+
