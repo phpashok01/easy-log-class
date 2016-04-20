@@ -4,10 +4,11 @@
 * where you  will create any log message for your application and store in log.txt file under the log directory,
 * you also create the date wise log file with custom name .
 *
-* @author		Ashok kashyap 
-* @authoremail  ajayashok.01@gmail.com,ashok@easyexpertsolutions.com)
-* @facebook     https://www.facebook.com/er.ashokkashyap  
-* @version      0.1
+* @author	      Ashok kashyap 
+* @authoremail        ajayashok.01@gmail.com,ashok@yesweexpert.com
+* @authorwebsite      http://yesweexpert.com
+* @facebook          https://www.facebook.com/er.ashokkashyap, https://www.facebook.com/yesweexpert 
+* @version          1.0
 */
 
 define('DIR_PATH',dirname(__FILE__));
